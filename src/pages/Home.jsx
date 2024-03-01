@@ -1,31 +1,24 @@
-import React from "react";
-import banner from "../assets/banner.mp4";
+import styled from "styled-components";
+import HomeHeader from "../components/HomeHeader";
+import DisplayServices from "../content/DisplayServices";
+import Slider from "../components/Slider";
 
-const HomeHeader = () => {
-  return (
-    <div style={styles.homeContainer}>
-      <video src={banner} autoPlay loop muted style={styles.video} />
-    </div>
-  );
-};
+const Home = () => {
+  return (<Container>
+    <HomeHeader />
+    <Slider />
+    <DisplayServices />
+      </Container >
+  )
+}
 
-export default HomeHeader;
+export default Home;
 
-const styles = {
-  homeContainer: {
-    position: "fixed",
-    top: 0,
-    left: 0,
-    width: "100%",
-    height: "100%",
-    overflow: "hidden",
-    zIndex: -1,
-  },
-  video: {
-    width: "100%",
-    height: "100%",
-    objectFit: "cover",
-    objectPosition: "center",
-  },
-};
 
+const Container = styled.header`
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: auto;
+  width: 100vw;
+`

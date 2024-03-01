@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider } from 'react-router-dom';
 import { config } from './config/routes';
-
+import "./index.css"
 ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 ).render(
