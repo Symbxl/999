@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import HomeHeader from "../components/HomeHeader";
+import HomeHeader from "../content/HomeHeader";
 import DisplayServices from "../content/DisplayServices";
 import Slider from "../components/Slider";
 
