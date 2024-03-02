@@ -69,6 +69,7 @@ const Container = styled.div`
   background-color: transparent; /* Set background to transparent */
 `
 
+
 const Logo = styled.img`
   height: 45px;
   width: 45px;
