@@ -40,12 +40,12 @@ const ChildContainer = styled.div`
 `;
 
 const Close = styled.button`
-  height: 35px;
-  width: 35px;  
+  height: 25px;
+  width: 25px;  
   margin: 1rem;
   align-self: flex-end;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   background-color: #f2f2f2;
   border-radius: 5px;
   cursor: pointer;

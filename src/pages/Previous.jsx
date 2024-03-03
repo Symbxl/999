@@ -1,5 +1,5 @@
 const PreviousWork = () => {
-  return ( <></> );
+  return ( <div></div> );
 }
 
 export default PreviousWork;

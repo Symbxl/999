@@ -25,11 +25,11 @@ export default DisplayServices;
 
 const Container = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   padding: 1rem;
-  border: 1px solid black;
   width: 100vw;
   height: auto
 `

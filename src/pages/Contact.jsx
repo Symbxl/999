@@ -1,5 +1,6 @@
+import Form from "../components/Form"
+
 const Contact = () => {
-  return ( <></> );
+  return ( <Form />);
 }
- 
 export default Contact;

@@ -18,7 +18,6 @@ const StyledButton = styled.button<Props>`
   color:#101418;
   border: 1px solid #101418;
   border-radius: 5px;
-  background-color: white;
 `;
 
 const Button = ({ width, height, padding, margin, children }: Props) => {

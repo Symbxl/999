@@ -2,23 +2,16 @@ import styled from "styled-components";
 import HomeHeader from "../content/HomeHeader";
 import DisplayServices from "../content/DisplayServices";
 import Slider from "../components/Slider";
+import { Form } from "react-router-dom";
 
 const Home = () => {
-  return (<Container>
+  return (<>
     <HomeHeader />
-    <Slider />
     <DisplayServices />
-      </Container >
+    <Slider />
+      </ >
   )
 }
 
 export default Home;
 
-
-const Container = styled.header`
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  height: auto;
-  width: 100vw;
-`
